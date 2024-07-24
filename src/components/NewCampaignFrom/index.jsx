@@ -10,7 +10,7 @@ function NewCapaingForm() {
    return (
       <>
          <h1 className="text-white">Criar nova campanha</h1>
-         <form className=" bg-yellow-200 flex flex-col p-4 w-52" onSubmit={handleSubmit}>
+         <form className="m-auto bg-yellow-200 flex flex-col p-4 w-52" onSubmit={handleSubmit}>
             <div>
                <label htmlFor="nomeCampanha">Nome da Campanha:</label>
                <input
