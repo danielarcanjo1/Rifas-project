@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import LoginForm from "./components/LoginForm";
 import Registerform from "./pages/RegisterForm";
-
+import { FormProvider } from "./context/FormContext";
 
 function App() {
    const [showMenu, setShowMenu] = useState(true);
@@ -13,6 +13,7 @@ function App() {
    return (
       <>
          <BrowserRouter>
+         <FormProvider>
          {showMenu && <TopMenu />}
             <Routes>
                <Route path="inicio" element={<Home />} />
@@ -20,6 +21,7 @@ function App() {
                <Route path="login" element={<LoginForm/>} />
                <Route path="cadastrar" element={<Registerform />} />               
             </Routes>
+         </FormProvider>
          </BrowserRouter>
       </>
    );

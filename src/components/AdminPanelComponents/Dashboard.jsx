@@ -61,8 +61,8 @@ export default function Dasboard() {
       <div className="Dashboard">
          <h1 className="text-white text-3xl">Dashboard</h1>
          <div className="pt-6">
-            <div className="GanhadoresCompradores flex gap-14">
-               <div className="bg-gray-900 w-1/3 h-28 rounded-lg p-4">
+            <div className="GanhadoresCompradores flex gap-10">
+               <div className="flex flex-col gap-6 bg-gray-900 w-2/5 h-36 rounded-lg p-4">
                   <p className="text-white text-sm">BUSCAR GANHADOR</p>
                   <div className="flex gap-4 items-end">
                      <div className="flex flex-col gap-1">
@@ -101,7 +101,7 @@ export default function Dasboard() {
                      </div>
                   </div>
                </div>
-               <div className="bg-gray-900 w-1/3 h-28 rounded-lg p-4">
+               <div className="flex flex-col gap-6 bg-gray-900 w-2/5 h-36 rounded-lg p-4">
                   <p className="text-white text-sm">RANKING DE COMPRADORES</p>
                   <div className="flex gap-4 items-end">
                      <div className="flex flex-col gap-1">
@@ -132,8 +132,8 @@ export default function Dasboard() {
                   </div>
                </div>
             </div>
-            <div className="mt-10 flex gap-16">
-               <div className="Campanhas flex items-center gap-5 w-64 h-20 bg-gray-800 p-2 rounded-md">
+            <div className="mt-10 flex gap-10">
+               <div className="Campanhas flex items-center gap-5 w-72 h-20 bg-gray-800 p-2 rounded-md">
                   <div className="Icon rounded-full w-10 h-10 p=2 flex items-center justify-center bg-green-500">
                      <BsMegaphone />
                   </div>
@@ -142,7 +142,7 @@ export default function Dasboard() {
                      <p>7</p>
                   </div>
                </div>
-               <div className="Campanhas flex items-center gap-5 w-64 h-20 bg-gray-800 p-2 rounded-md">
+               <div className="Campanhas flex items-center gap-5 w-72 h-20 bg-gray-800 p-2 rounded-md">
                   <div className="Icon rounded-full w-10 h-10 p=2 flex items-center justify-center bg-orange-500">
                      <FaUsers />
                   </div>
@@ -151,7 +151,7 @@ export default function Dasboard() {
                      <p>7</p>
                   </div>
                </div>
-               <div className="Campanhas flex items-center gap-5 w-64 h-20 bg-gray-800 p-2 rounded-md">
+               <div className="Campanhas flex items-center gap-5 w-72 h-20 bg-gray-800 p-2 rounded-md">
                   <div className="Icon rounded-full w-10 h-10 p=2 flex items-center justify-center bg-blue-500">
                      <IoBagCheckOutline />
                   </div>
@@ -160,7 +160,7 @@ export default function Dasboard() {
                      <p>7</p>
                   </div>
                </div>
-               <div className="Campanhas flex items-center gap-5 w-64 h-20 bg-gray-800 p-2 rounded-md">
+               <div className="Campanhas flex items-center gap-5 w-72 h-20 bg-gray-800 p-2 rounded-md">
                   <div className="Icon rounded-full w-10 h-10 p=2 flex items-center justify-center bg-sky-300">
                      <MdAttachMoney />
                   </div>
